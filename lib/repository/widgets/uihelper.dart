@@ -22,4 +22,45 @@ class Uihelper {
       ),
     );
   }
+
+  static customTextField({required TextEditingController controller}) {
+    return Container(
+      height: 40,
+      width: 360,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(10),
+        color: Colors.white,
+        border: Border.all(color: Color(0XFFC5C5C5)),
+      ),
+      child: TextField(
+        controller: controller,
+        decoration: InputDecoration(
+          hintText: "Search 'ice cream'",
+          prefixIcon: Image.asset(
+            "assets/images/search-interface-symbol 1.png",
+          ),
+          suffixIcon: Image.asset("assets/images/mic 1.png"),
+          border: InputBorder.none,
+        ),
+      ),
+    );
+  }
+
+  static customButton(void callback) {
+    return Container(
+      height: 18,
+      width: 30,
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(4),
+        border: Border.all(color: Color(0XFF27AF34)),
+      ),
+      child: Center(
+        child: Text(
+          "Add",
+          style: TextStyle(fontSize: 8, color: Color(0XFF27Af34)),
+        ),
+      ),
+    );
+  }
 }

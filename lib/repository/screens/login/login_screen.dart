@@ -39,7 +39,7 @@ class LoginScreen extends StatelessWidget {
                   children: [
                     SizedBox(height: 20),
                     Uihelper.customText(
-                      txt: "Sujel",
+                      txt: "Akanksha",
                       color: Color(0XFF000000),
                       fontweight: FontWeight.w500,
                       fontsize: 14,
@@ -47,7 +47,7 @@ class LoginScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 5),
                     Uihelper.customText(
-                      txt: "78277XXXXX",
+                      txt: "87675XXXXX",
                       color: Color(0XFF9C9C9C),
                       fontweight: FontWeight.bold,
                       fontsize: 14,
